@@ -1,0 +1,12 @@
+	CREATE DATABASE file_xml_csv;
+
+	CREATE TABLE `file_xml_csv`.`customers` ( `id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(200) 
+	CHARACTER SET utf8 COLLATE utf8_polish_ci NOT NULL , `surname` VARCHAR(200) 
+	CHARACTER SET utf8 COLLATE utf8_polish_ci NOT NULL , `age` VARCHAR(20)
+	CHARACTER SET utf8 COLLATE utf8_polish_ci NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+	
+	CREATE TABLE `file_xml_csv`.`contacts` ( `id` INT NOT NULL AUTO_INCREMENT , `id_customer` INT NOT NULL ,
+	`type` INT NOT NULL , `contact` VARCHAR(2000)
+	CHARACTER SET utf8 COLLATE utf8_polish_ci NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+	
+	ALTER TABLE `contacts` ADD FOREIGN KEY (`ID_CUSTOMER`) REFERENCES `customers`(`ID`) ON DELETE RESTRICT ON UPDATE RESTRICT;

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FilesReader:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FilesReader_jar</output-path>
+    <root id="archive" name="FilesReader.jar">
+      <element id="module-output" name="FilesReader" />
+      <element id="extracted-dir" path="E:/Inne/Programowanie/Biblioteki Java/mysql-connector-java-5.1.23-bin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

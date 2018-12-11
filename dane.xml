@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persons>
+    <person>
+        <name>Jan</name>
+        <surname>Kowalski</surname>
+        <age>12</age>
+        <city>Lublin</city>
+        <contacts>
+            <phone>1111111111</phone>
+            <phone>654 765 765</phone>
+            <email>kowalski@gmail.com</email>
+            <email>jan@gmail.com</email>
+        </contacts>
+    </person>
+    <person>
+        <name>Adam</name>
+        <surname>Nowak</surname>
+        <city>Lublin</city>
+        <contacts>
+            <phone>22222222</phone>
+            <email>adam@gmail.com</email>
+            <icq>12321</icq>
+            <jabber>jbr</jabber>
+        </contacts>
+    </person>
+	    <person>
+        <name>Michał</name>
+        <surname>Żyro</surname>
+		 <age>76</age>
+        <city>katowice</city>
+        <contacts>
+            <phone>777777777</phone>
+            <email>zyro@gmail.com</email>		
+            <icq>GG 77777</icq>
+            <jabber>jbr</jabber>
+        </contacts>
+    </person>  
+	    <person>
+        <name>Damian</name>
+        <surname>Żółć</surname>
+		 <age>24</age>
+        <city>Londyn</city>
+        <contacts>
+            <phone>7744444  7</phone>
+            <email>samsung@gmail.com</email>
+			 <phone>774</phone>
+			<email>dell@gmail.com</email>
+			<email>damian@gmail.com</email>
+			<email>zolc@gmail.com</email>
+            <icq>GG: 77777</icq>
+			 <phone>774 444 417</phone>
+            <jabber>jbr</jabber>
+        </contacts>
+    </person>
+</persons>
